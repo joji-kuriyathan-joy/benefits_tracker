@@ -57,10 +57,12 @@ The system follows a **three-tiered architecture**:
 - REST API built using **Spring Boot**
 - JSON-based request/response model
 - API endpoints secured using validation
+  
 📌 **2. Business Layer**
 
 - Implements validation, processing, and audit tracking
 - Uses **Spring Service Layer** to manage business logic
+  
 📌 **3. Data Layer**
 
 - Uses **Spring Data JPA** for database operations
@@ -73,8 +75,10 @@ The system follows a **three-tiered architecture**:
 
 **Visual Representation**
 
-- [﻿High-Level Application Architecture (Flowchart)](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=ewHJXG9XShYfZMm69TAb2w) 
-- [﻿Participant and Evidence Data Flow Chart](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=yfoVYDH1SYCUvTs5Esaq6w) 
+- [﻿High-Level Application Architecture (Flowchart)](![image](https://github.com/user-attachments/assets/ede01161-8147-42be-9ca1-cd0a446ec708)
+) 
+- [﻿Participant and Evidence Data Flow Chart](![image](https://github.com/user-attachments/assets/4b57c79d-0582-4d0f-8c1d-8f2fe3eeb604)
+) 
 ---
 
 # **4️⃣ Technologies Used**
@@ -98,7 +102,8 @@ Spring Initializer : Create spring boot project template , with needed dependenc
 
 
 
-![image.png](https://eraser.imgix.net/workspaces/G1SXJ3oGTBdB2UejpmBi/qwfEexGOl0hhdnRMfZpTm0u0uqY2/s4xQlkein5CPjfgJStr9n.png?ixlib=js-3.7.0 "image.png")
+![image.png](![image](https://github.com/user-attachments/assets/ad49c95b-3292-48e9-aa06-e11851e17f46)
+)
 
 
 
@@ -136,7 +141,8 @@ IDE : InteliJ Community Edition
 ---
 
 # **7️⃣ Database Schema **
-[﻿View on canvas](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=pRf8qIAbqiMviMQ3BDguZA) 
+[﻿View on canvas](![image](https://github.com/user-attachments/assets/8d4e66b6-b7a4-4e8d-bd55-02992d5dacb6)
+) 
 
 ### **📌 Entity: **`**Participant**` 
 | Column | Type | Constraints |
@@ -165,12 +171,24 @@ IDE : InteliJ Community Edition
 # **8️⃣ Validation & Business Rules**
 | Field    | Validation |
 | ----- | ----- |
-| **First Name & Surname  **[﻿Retrieve Participant’s Active First Name & Surname](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=cr2P_XGhkEv_N8F2tKQMlA)** ** | Required, Only one active name |
-| **National Insurance Number  **[﻿National Insurance Number (NINO) Validation Flow](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=8_D-RvgERgc2qlNtduDR0w)** ** | Valid UK NINO format |
-| **Email  **[﻿Email  Validation Flow](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=pylxlxhN8w7xrRai7DWlgQ)** ** | <p>Standard email format (</p><p> required)</p> |
-| **Phone Number  **[﻿Telephone Number Validation](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=r_cvhGks5EbkjFyWj4aEJw)** ** | Must contain only digits, 10-15 length |
-| **Primary Address  **[﻿Address (UK Postcode) Validation Flow](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=2Njy8NGRkgcOc0kMX_wnnQ)** ** | Must have a valid UK postcode |
-| **Bank Account  **[﻿Participant's Active Bank Account Retrieval](https://app.eraser.io/workspace/G1SXJ3oGTBdB2UejpmBi?elements=8xDaecTghgwmlmHblCv4pA)** ** | Only one active per participant |
+| **First Name & Surname  **[﻿Retrieve Participant’s Active First Name & Surname](![image](https://github.com/user-attachments/assets/53157a7f-9bf7-4f76-9783-75cd51cf5a8c)
+)** ** | Required, Only one active name |
+| **National Insurance Number  **[﻿National Insurance Number (NINO) Validation Flow](![image](https://github.com/user-attachments/assets/3673db29-076b-4199-a6a3-d5aa16000366)
+)** ** | Valid UK NINO format |
+| **Email  **[﻿Email  Validation Flow](![image](https://github.com/user-attachments/assets/090c52a9-7427-4adb-bf22-c1382a5a61f1)
+)** ** | <p>Standard email format (</p><p> required)</p> |
+| **Phone Number  **[﻿Telephone Number Validation](![image](https://github.com/user-attachments/assets/eecd53b0-544b-47b4-8c24-c7c464b16bfe)
+)** ** | Must contain only digits, 10-15 length |
+| **Primary Address  **[﻿Address (UK Postcode) Validation Flow](![image](https://github.com/user-attachments/assets/e2052800-19ef-4351-8fee-42dc5ee4a3dd)
+)** ** | Must have a valid UK postcode |
+| **Bank Account  **[﻿Participant's Active Bank Account Retrieval](![image](https://github.com/user-attachments/assets/e3252a63-9428-4d10-9199-d1875323017c)
+)** ** | Only one active per participant |
+
+Bussiness Logic Flow : 
+![image](https://github.com/user-attachments/assets/7671f75c-7a89-456e-827f-589b5fc0522f)
+![image](https://github.com/user-attachments/assets/f225d2ab-5ec2-4670-80af-e0b6d9b62918)
+
+
 ---
 
 # **9️⃣ Testing Strategy**
