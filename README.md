@@ -75,10 +75,10 @@ The system follows a **three-tiered architecture**:
 
 **Visual Representation**
 
-- [﻿High-Level Application Architecture (Flowchart)](![image](https://github.com/user-attachments/assets/ede01161-8147-42be-9ca1-cd0a446ec708)
-) 
-- [﻿Participant and Evidence Data Flow Chart](![image](https://github.com/user-attachments/assets/4b57c79d-0582-4d0f-8c1d-8f2fe3eeb604)
-) 
+- [﻿High-Level Application Architecture (Flowchart)]![image](https://github.com/user-attachments/assets/ad908800-dccc-4d01-9c05-02fe7aea4938)
+
+- [﻿Participant and Evidence Data Flow Chart]![image](https://github.com/user-attachments/assets/b157868f-8ef3-4e25-a055-e3386860480a)
+
 ---
 
 # **4️⃣ Technologies Used**
@@ -102,8 +102,7 @@ Spring Initializer : Create spring boot project template , with needed dependenc
 
 
 
-![image.png](![image](https://github.com/user-attachments/assets/ad49c95b-3292-48e9-aa06-e11851e17f46)
-)
+![image](https://github.com/user-attachments/assets/6b95c502-c733-41ad-a395-00bc7d49589f)
 
 
 
